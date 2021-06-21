@@ -1,0 +1,60 @@
+.App  {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding : 1rem 2rem;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1{
+  color : #fff
+}
+
+.header select{
+  height : 30px;
+  width : 140px;
+  border-radius: 5px;
+  border: none;
+}
+
+.footer {
+  margin-top: 0rem;
+  padding: 0rem;
+  background-color: #ddd;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow:hidden;
+}
+
+.footer h3{
+  font-size: small;
+  float: right;
+  color : #000
+}
+
+.footer select{
+  height : 30px;
+  width : 140px;
+  border-radius: 5px;
+  border: none;
+}
+
+.last-content{  
+  margin-top:500px;
+  padding-bottom: 50px;
+}
+
+.body {
+  min-height: calc(100vh - 100px);
+  padding-bottom: 50%;
+}
+section {
+  padding : 1rem;
+}
